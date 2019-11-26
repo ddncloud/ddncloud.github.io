@@ -75,6 +75,7 @@ border :1px solid blue;
 
 
 
+<script>
 
 import {fetchDelete} from "./fetch-delete";
 
@@ -82,5 +83,6 @@ let url = `https://postman-echo.com/delete`;
 let id = `1`;
 
 fetchDelete(url, id).then(data => console.log(`do something with your data`, JSON.stringify(data, null, 4)));
+</script>
 
 <button type="button" onclick="fetchDelete(url, id).then(data => console.log(`do something with your data`, JSON.stringify(data, null, 4)))">Delete request postman!!</button></br></br>
