@@ -1,3 +1,29 @@
+<style type="text/css">
+.page{
+	padding: 10px 2px 0px 20px;
+	margin: 10px 2px 0px 20px;
+	border :1px solid blue;
+}
+.table1
+{
+border-collapse:collapse;
+border :1px solid blue;
+}
+.boldText{
+	padding: 2px 5px 0px 5px;
+	font-weight:bold;
+	white;font-family: Verdana, Arial, 'Microsoft Sans Serif';font-size:12px;
+}
+.boldTextRight{
+	text-align: right;
+	padding: 2px 3px 0px 5px;
+	font-weight:bold;
+	white;font-family: Verdana, Arial, 'Microsoft Sans Serif';font-size:12px;
+}
+</style>
+
+
+
 <button type="button" onclick="alert('Delete request sent!')">Delete request!!</button></br></br>
 <form method="get" action="DataSubjectData.csv">
    <button type="submit">Port data</button>
@@ -30,7 +56,7 @@
 </table>
 <table id="form-table" class="table1">
    <tr>
-      <td><b>Parameter Name</b></td><td class="boldText"><b>Parameter Value</b></td>
+      <td class="boldTextRight">Parameter Name</td><td class="boldText">Parameter Value</td>
    </tr>
    <tr>
       <td><input name="id" type="text" size=20 value="id"/></td><td><input name="value0" type="text" size=52 value="1"/></td>
